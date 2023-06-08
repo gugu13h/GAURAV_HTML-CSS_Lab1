@@ -1,0 +1,70 @@
+<style>
+    /* Styling for the header */
+    header {
+      background-color: red;
+      padding: 20px;
+    }
+
+    /* Styling for the navigation menu bar */
+    .navbar {
+      background-color: #f1f1f1;
+      overflow: hidden;
+    }
+
+    /* Styling for the navigation links */
+    .navbar a {
+      float: left;
+      display: block;
+      color: #333;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Styling for the dropdown */
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    /* Styling for the dropdown button */
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: #333;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    /* Styling for the dropdown content */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* Styling for the dropdown links */
+    .dropdown-content a {
+      color: #333;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    /* Styling for the dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    /* Show the dropdown content when hovering over the dropdown button or links */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    </style>
